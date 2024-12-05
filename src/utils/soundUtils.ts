@@ -13,10 +13,10 @@ class SoundManager {
   }
 
   private initializeSounds() {
-    this.tickSound.src = 'https://images.chesscomfiles.com/chess-themes/sounds/_MP3_/default/capture.mp3';
-    this.alertSound.src = 'https://images.chesscomfiles.com/chess-themes/sounds/_MP3_/default/tenseconds.mp3';
+    this.tickSound.src = 'assets/capture.mp3';
+    this.alertSound.src = 'assets/tenseconds.mp3';
     // this.buzzerSound.src = 'https://images.chesscomfiles.com/chess-themes/sounds/_MP3_/default/game-end.mp3';
-    this.buzzerSound.src = 'src/utils/assets/buzzer-227217.mp3';
+    this.buzzerSound.src = 'assets/buzzer-227217.mp3';
 
     // Preload sounds
     this.tickSound.load();
